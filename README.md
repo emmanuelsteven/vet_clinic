@@ -63,15 +63,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet Clinic] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[Vet Clinic]** is a SQL database project has a table called "animals" with columns for Id, name, date of birth, escape attempts, neutered status, and weight in kilograms.This table provides a structured format to store and manage information about animals.The Vet Clinic tries  efficiently track and handle animal-related data within the veterinary clinic's operations.
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">PostgreSQL</a>
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack">BackEnd</a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
@@ -102,9 +102,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Schema]**
+- **[Query Data]**
+- **[Insert Data]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +114,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+- [Live Demo Link](coming soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,17 +208,10 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Emmanuel Steven**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/emanuelsteven)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,9 +221,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Database Schema Diagram]**
+- [ ] **[Multiple query tables]**
+- [ ] **[Add join table ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -250,7 +243,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project please star it if there is need for futher improvement i would love to hear from please drop a description at the issue section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -260,7 +253,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank the Microverse team for curating this program.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -270,13 +263,6 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -284,8 +270,7 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/emmanuelsteven/vet_clinic/blob/dev/LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
