@@ -1,16 +1,11 @@
 # curriculum-databases-projects-template
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
 - Use [schema.sql](./schema.sql) to create all tables.
 - Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 <a name="readme-top"></a>
 
@@ -65,15 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Vet Clinic] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Vet Clinic]** is a SQL database project has a table called "animals" with columns for Id, name, date of birth, escape attempts, neutered status, and weight in kilograms.This table provides a structured format to store and manage information about animals.The Vet Clinic tries  efficiently track and handle animal-related data within the veterinary clinic's operations.
 
-## 🛠 Built With <a name="built-with">PostgreSQL</a>
-
 ### Tech Stack <a name="tech-stack">BackEnd</a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -100,8 +89,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Schema]**
 - **[Query Data]**
 - **[Insert Data]**
@@ -112,8 +99,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](coming soon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,8 +106,6 @@ After you're finished please remove all the comments and instructions!
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -206,8 +189,6 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Emmanuel Steven**
 
 - GitHub: [@githubhandle](https://github.com/emanuelsteven)
@@ -218,8 +199,6 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Database Schema Diagram]**
 - [ ] **[Multiple query tables]**
@@ -251,8 +230,6 @@ If you like this project please star it if there is need for futher improvement 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
 I would like to thank the Microverse team for curating this program.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -260,9 +237,6 @@ I would like to thank the Microverse team for curating this program.
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
