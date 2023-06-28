@@ -107,6 +107,3 @@ SELECT species, MIN(weight_kg) AS min_weight, MAX(weight_kg) AS max_weight FROM 
 SELECT species, AVG(escape_attempts) AS avg_escape_attempts FROM animals WHERE date_of_birth >= '1990-01-01' AND date_of_birth <= '2000-12-31' GROUP BY species;
 
 
--- Adding new table header
-ALTER TABLE animals
-ADD COLUMN species VARCHAR(100);
