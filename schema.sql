@@ -9,3 +9,6 @@ CREATE TABLE animals (
     weight_kg DECIMAL(10, 2) NOT NULL 
   );
   
+  -- Adding new table header
+ALTER TABLE animals
+ADD COLUMN species VARCHAR(100);
