@@ -12,3 +12,33 @@ CREATE TABLE animals (
   -- Adding new table header
 ALTER TABLE animals
 ADD COLUMN species VARCHAR(100);
+
+--  Create a table named owners
+CREATE TABLE owners(
+id BIGSERIAL NOT NULL PRIMARY KEY ,
+full_name VARCHAR (100) NOT NULL,
+age INT NOT NULL
+);
+
+
+
+--  Create a table named species
+CREATE TABLE species (
+id BIGSERIAL NOT NULL PRIMARY KEY ,
+name VARCHAR (100) NOT NULL
+ );
+
+ ALTER TABLE animals DROP COLUMN species;
+
+
+-- Add column species_id which is a foreign key referencing species table
+ALTER TABLE animals
+ADD COLUMN species_id INT, ADD CONSTRAINT sp_animals_species FOREIGN KEY (species_id) REFERENCES species(id);
+ALTER TABLE
+
+-- Add column owners_id which is a foreign key referencing species table
+ALTER TABLE animals
+ADD COLUMN owner_id INT REFERENCES owners(id);
+ALTER TABLE
+
+
