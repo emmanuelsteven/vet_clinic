@@ -41,4 +41,17 @@ ALTER TABLE animals
 ADD COLUMN owner_id INT REFERENCES owners(id);
 ALTER TABLE
 
+CREATE TABLE specializations (
+    vet_id INT,
+    species_id INT, 
+    FOREIGN KEY (vet_id) REFERENCES vets(id),
+    FOREIGN KEY (species_id) REFERENCES species(id)
+);
 
+CREATE TABLE visits (
+    vet_id INT,
+    animal_id INT,
+    visit_date DATE,
+    FOREIGN KEY (vet_id) REFERENCES vets(id),
+    FOREIGN KEY (animal_id) REFERENCES animals(id) 
+);
