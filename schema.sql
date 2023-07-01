@@ -31,6 +31,14 @@ name VARCHAR (100) NOT NULL
  ALTER TABLE animals DROP COLUMN species;
 
 
+-- Create a table named vets with the following columns:
+CREATE TABLE vets (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    date_of_graduation DATE
+);
+
 -- Add column species_id which is a foreign key referencing species table
 ALTER TABLE animals
 ADD COLUMN species_id INT, ADD CONSTRAINT sp_animals_species FOREIGN KEY (species_id) REFERENCES species(id);
