@@ -56,8 +56,6 @@ CREATE TABLE specializations (
     FOREIGN KEY (species_id) REFERENCES species(id)
 );
 
--- Create visits table
-
 CREATE TABLE visits (
     animal_id INT,
     vet_id INT,
