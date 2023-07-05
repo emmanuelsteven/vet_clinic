@@ -57,9 +57,14 @@ CREATE TABLE specializations (
 );
 
 CREATE TABLE visits (
-    vet_id INT,
     animal_id INT,
+    vet_id INT,
     visit_date DATE,
-    FOREIGN KEY (vet_id) REFERENCES vets(id),
-    FOREIGN KEY (animal_id) REFERENCES animals(id) 
+    PRIMARY KEY (animal_id, vet_id, visit_date),
+    FOREIGN KEY (animal_id) REFERENCES animals (id),
+    FOREIGN KEY (vet_id) REFERENCES vets (id)
 );
+
+CREATE INDEX idx_animal_id ON visits (animal_id);
+CREATE INDEX idx_vet_id ON visits (vet_id);
+CREATE INDEX  idx_email ON owners(email);
